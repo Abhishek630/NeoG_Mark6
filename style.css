@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Roboto' sans-serif;
+}
+body{
+  background-image: url("./download.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav {
+  background-color: rgba(0, 183, 255, 0.425);
+  width: 100%;
+  text-align: center;
+  height: 80px;
+}
+/* ------------------------ */
+.footer {
+  height: 50px;
+  width: 15rem;
+  text-align: center;
+  position: relative;
+  margin-top: 70px;
+  background-color: #8ea19a;
+}
+/* ------------------------ */
+
+
+.btn {
+  margin: 10px;
+  padding: 10px;
+  height: 30px;
+  width: 150px;
+  border: 3px solid #0a0a04;
+  border-radius: 12px;
+  background-color: white;
+  padding-bottom: 25px;
+  margin-left: 10rem;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: rgba(red, green, rgb(208, 255, 0), alpha);
+  transform:scale(1.1);
+  transition: all 0.3s linear;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+#txt-input {
+  border: 1px solid black;
+  width: 100%;
+  height: 150px;
+  font-size: 2rem;
+}
+#output {
+  border: 1px solid black;
+  font-size: 5rem;
+  height: 14rem;
+  width: 20rem;
+  background-color: rgb(212, 193, 106);
+  margin-left: 5rem;
+}
+.group-output{
+  display:flex;
+}
